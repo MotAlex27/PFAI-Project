@@ -174,3 +174,6 @@ checkpoint is reported rather than silently omitted.
 The repository includes a snapshot of the trained model and generated
 evaluation and simulation outputs under `artifacts/`, grouped by category.
 These are reference outputs; the scripts above can regenerate them.
+
+For a fuller Romanian-language project overview, see
+[Documentație proiect](Documentatie-proiect.docx).
