@@ -1,0 +1,168 @@
+{
+  "runs": [
+    {
+      "policy": "fixed",
+      "seed": 101,
+      "average_travel_time": 772.1746162280701,
+      "mean_queue": 206.0731707317073,
+      "throughput": 320,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "fixed",
+      "seed": 102,
+      "average_travel_time": 620.5879934210526,
+      "mean_queue": 169.52286585365854,
+      "throughput": 1115,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "fixed",
+      "seed": 103,
+      "average_travel_time": 749.0855263157895,
+      "mean_queue": 199.0670731707317,
+      "throughput": 368,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "fixed",
+      "seed": 104,
+      "average_travel_time": 693.9830043859649,
+      "mean_queue": 194.54573170731706,
+      "throughput": 603,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "fixed",
+      "seed": 105,
+      "average_travel_time": 706.1293859649123,
+      "mean_queue": 193.1234756097561,
+      "throughput": 514,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "max-pressure",
+      "seed": 101,
+      "average_travel_time": 840.1962719298245,
+      "mean_queue": 213.3967741935484,
+      "throughput": 136,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "max-pressure",
+      "seed": 102,
+      "average_travel_time": 824.546052631579,
+      "mean_queue": 207.5209677419355,
+      "throughput": 176,
+      "simulation_seconds": 1802
+    },
+    {
+      "policy": "max-pressure",
+      "seed": 103,
+      "average_travel_time": 776.5071271929825,
+      "mean_queue": 204.94805194805195,
+      "throughput": 297,
+      "simulation_seconds": 1801
+    },
+    {
+      "policy": "max-pressure",
+      "seed": 104,
+      "average_travel_time": 782.969024122807,
+      "mean_queue": 210.7807570977918,
+      "throughput": 289,
+      "simulation_seconds": 1801
+    },
+    {
+      "policy": "max-pressure",
+      "seed": 105,
+      "average_travel_time": 838.8366228070175,
+      "mean_queue": 215.85048231511254,
+      "throughput": 137,
+      "simulation_seconds": 1801
+    },
+    {
+      "policy": "dqn",
+      "seed": 101,
+      "average_travel_time": 570.9387699066447,
+      "mean_queue": 150.19897959183675,
+      "throughput": 1306,
+      "simulation_seconds": 1800
+    },
+    {
+      "policy": "dqn",
+      "seed": 102,
+      "average_travel_time": 612.5356359649123,
+      "mean_queue": 159.79933110367892,
+      "throughput": 1147,
+      "simulation_seconds": 1801
+    },
+    {
+      "policy": "dqn",
+      "seed": 103,
+      "average_travel_time": 590.1191780821918,
+      "mean_queue": 162.3724832214765,
+      "throughput": 1139,
+      "simulation_seconds": 1805
+    },
+    {
+      "policy": "dqn",
+      "seed": 104,
+      "average_travel_time": 661.8204495614035,
+      "mean_queue": 184.44281045751634,
+      "throughput": 742,
+      "simulation_seconds": 1803
+    },
+    {
+      "policy": "dqn",
+      "seed": 105,
+      "average_travel_time": 790.4376716090061,
+      "mean_queue": 206.66006600660066,
+      "throughput": 252,
+      "simulation_seconds": 1800
+    }
+  ],
+  "summary": {
+    "fixed": {
+      "average_travel_time": {
+        "mean": 708.3921052631579,
+        "std": 52.24264037172819
+      },
+      "mean_queue": {
+        "mean": 192.46646341463415,
+        "std": 12.327807784535608
+      },
+      "throughput": {
+        "mean": 584.0,
+        "std": 284.10350226633955
+      }
+    },
+    "max-pressure": {
+      "average_travel_time": {
+        "mean": 812.6110197368421,
+        "std": 27.471120712283756
+      },
+      "mean_queue": {
+        "mean": 210.499406659288,
+        "std": 3.91909542845165
+      },
+      "throughput": {
+        "mean": 207.0,
+        "std": 71.73004949113029
+      }
+    },
+    "dqn": {
+      "average_travel_time": {
+        "mean": 645.1703410248317,
+        "std": 78.72204788455507
+      },
+      "mean_queue": {
+        "mean": 172.69473407622183,
+        "std": 20.349743596202053
+      },
+      "throughput": {
+        "mean": 917.2,
+        "std": 381.14427714449556
+      }
+    }
+  }
+}

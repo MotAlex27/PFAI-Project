@@ -8,3 +8,4 @@ results/*.png
 replay.txt
 data/corridor_2x1/replay.txt
 data/corridor_2x1/roadnet_log.txt
+!artifacts/simulation/replay.txt

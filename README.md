@@ -168,3 +168,9 @@ checkpoint is reported rather than silently omitted.
   multiple seeds, inspect training convergence, and calibrate demand and
   vehicle parameters before making research or deployment claims.
 - This is a research baseline, not a safety-certified traffic controller.
+
+## Published artifacts
+
+The repository includes a snapshot of the trained model and generated
+evaluation and simulation outputs under `artifacts/`, grouped by category.
+These are reference outputs; the scripts above can regenerate them.
